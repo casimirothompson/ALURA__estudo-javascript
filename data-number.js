@@ -1,3 +1,9 @@
+// aqui temos os dados do tipo numero;
+// os numeros não tem nenhum tipo de aspas;
+// os numeros podem ser inteiros ou decimais.
+// os numeros decimais podem ser representados como: numero1.numero2 {1.2, 2.3, 7.4}
+// e tambem como: .numero2 {.2, .63, .4} aqui o numero1 sempre será 0
+
 const firstNum = 3;
 const secondNum = 5;
 
@@ -11,9 +17,6 @@ console.log(soma);
 console.log(sub);
 console.log(multi);
 console.log(div);
-
-//NUMEROS FLUTUANTES PODEM SER REPRESENTADOS COM numero1.numero2 => 2.2, 3.5, 1.7;
-//e tambem somente com .numero => .1, .2, .75 [porem sempre antes do . é o 0];
 
 const primeiNum = 1.9;
 const segundNum = 2.8;
